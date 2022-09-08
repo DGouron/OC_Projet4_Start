@@ -702,6 +702,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding: 20px;
 }
 
 h2 {
@@ -833,6 +834,38 @@ h4 {
 }
 .partner__list li{
     margin: 10px;
+}
+.citation__title{
+    color: rgba(0, 0, 0, .7) !important;
+}
+.citation__subtitle{
+    color: rgba(0, 0, 0, .55) !important;
+}
+.citation__title{
+    font-size: 1.95rem;
+    text-transform: none;
+    font-family: "helvetica";
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 24%;
+    padding-right: 24%;
+}
+.citation__subtitle{
+    font-size: 1.95rem;
+    text-transform: none;
+    font-family: "helvetica";
+    font-weight: 400;
+    text-align: center;
+}
+.portfolio__title{
+    font-size: 1.95rem;
+    text-transform: none;
+    font-family: "helvetica";
+    font-weight: 100;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 @media (max-width: 1024px) {
     .bloc {
