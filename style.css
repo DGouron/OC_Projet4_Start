@@ -695,6 +695,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
     padding: 20px;
@@ -743,6 +745,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -861,6 +864,17 @@ h4 {
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
+}
+.contact__form--wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.contact__form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 90%;
 }
 @media (max-width: 1024px) {
     .bloc {
